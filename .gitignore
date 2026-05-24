@@ -1,0 +1,23 @@
+# Large Ghidra & IDA Pro analysis caches
+ghidra_analysis.json
+ida_analysis.json
+ghidra_proj/
+
+# Binary files
+game
+*.exe
+*.bin
+*.elf
+
+# Python runtime artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE and configuration files
+.vscode/
+.idea/
+.DS_Store
+
+# Local configuration file (privacy paths)
+mcp_local_config.json
